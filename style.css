@@ -1,6 +1,12 @@
 body{
     background-color: black;
 }
+.main{
+    border: 2px solid brown;
+    margin: 30px;
+    height: 500px;
+    border-radius: 15px
+}
 .header{
     display: inline-block;
     margin-top: 25px;
@@ -18,15 +24,9 @@ img{
     display: inline;
     float: left;
 }
-.box{
-    border: 2px solid brown;
-    margin: 30px;
-    height: 500px;
-    border-radius: 15px;
-}
 .box h1{
     color: white;
-    margin: 50px auto auto 30px;
+    margin: 60px auto auto 30px;
 }
 .anytime{
     color: red;
