@@ -7,17 +7,25 @@ body{
     height: auto;
     border-radius: 15px
 }
-.header{
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 100px;
+nav{
+    float: right;
+    margin-right: 15%;
 }
-.header li{
-    display: inline;
-    color: orangered;
-    margin-left: 15px;
-    font-size: 1.2em;
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1.3em;
     text-transform: uppercase;
+}
+nav li :hover{
+    color: white;
+}
+nav ul a{
+    text-decoration: none;
+    color: orangered;
 }
 img{
     height: 100px;
@@ -26,9 +34,8 @@ img{
     float: left;
 }
 .box h1{
-    display: absolute;
     color: white;
-    margin: 60px auto auto 30px;
+    margin: 150px auto auto 30px;
 }
 .anytime{
     color: red;
