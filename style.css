@@ -1,0 +1,12 @@
+.header header{
+    font-weight: bold;
+    font-size: 2.2em;
+    color: red;
+    text-align: center;
+}
+hr{
+    height: 3px;
+    color: brown;
+    background-color: brown;
+    border: none;
+}
