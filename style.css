@@ -4,31 +4,54 @@ body{
 .main{
     border: 2px solid brown;
     margin: 30px;
-    height: 500px;
+    height: auto;
     border-radius: 15px
 }
 .header{
     display: inline-block;
     margin-top: 25px;
-    margin-left: 180px;
+    margin-left: 100px;
 }
 .header li{
     display: inline;
-    color: white;
+    color: orangered;
     margin-left: 15px;
     font-size: 1.2em;
+    text-transform: uppercase;
 }
 img{
     height: 100px;
-    width: 100px;
+    width: 150px;
     display: inline;
     float: left;
 }
 .box h1{
+    display: absolute;
     color: white;
     margin: 60px auto auto 30px;
 }
 .anytime{
     color: red;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+audio{
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+}
+video{
+    width: 250px;
+    height: 120px;
+}
+table{
+    color: white;
+    margin-top: 100px;
+    border-collapse: collapse;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr td, th{
+    padding: 10px 15px;
+    border: 1px solid orangered;
 }
